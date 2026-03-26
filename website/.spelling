@@ -208,6 +208,7 @@ OCF
 OIDC
 OLAP
 OOMs
+OPA
 OpenJDK
 OpenLDAP
 OpenTSDB
@@ -2387,6 +2388,7 @@ druid-orc-extensions
 druid-parquet-extensions
 druid-protobuf-extensions
 druid-ranger-security
+druid-opa-authorizer
 druid-s3-extensions
 druid-ec2-extensions
 druid-aws-rds-extensions
@@ -2484,3 +2486,18 @@ TableSpec
 
 - ../docs/development/extensions-contrib/prometheus.md
 TTL
+OPA
+Rego
+opaUri
+rego
+RegoRules
+
+- ../docs/development/extensions-contrib/druid-opa-authorizer.md
+OPA
+Rego
+alice
+christy
+dylan
+eve
+opaUri
+rego
